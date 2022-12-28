@@ -46,7 +46,7 @@ int main(){
     char input[MAX_TEXT];
     unsigned int length = getText(input,MAX_TEXT);
 
-    unsigned int *text = (int *)calloc((MAX_BYTES)/8,1);
+    unsigned int *text = (int *)calloc((MAX_BITS)/8,1);
     memcpy(text,input,length);
 
 
